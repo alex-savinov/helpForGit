@@ -41,3 +41,9 @@ ___
 ___
 >### git branch -d
 *delete a branch*
+
+___
+>### git merge
+*merging branches*
+
+!
