@@ -31,11 +31,13 @@ ___
 >### git diff 
 *difference between the current file and the committed file*
 ___
-git branch 
-view all branches
+>### git branch 
+*view all branches*
 
-git branch <name_branch>
-create a new branch
+___
+>### git branch <name_branch>
+*create a new branch*
 
-git branch -d
-delete a branch
+___
+>### git branch -d
+*delete a branch*
