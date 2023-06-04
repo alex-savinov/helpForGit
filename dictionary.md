@@ -31,3 +31,8 @@ ___
 >### git diff 
 *difference between the current file and the committed file*
 ___
+git branch 
+
+git branch <name_branch>
+
+git branch -d
