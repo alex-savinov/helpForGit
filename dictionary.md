@@ -1,19 +1,65 @@
 # **GIT** *commands and description*
 ___
->### git init 
-*initializing the local repository*
+>## git init
+>>*создание репозитория в текущей директории*
+___
+>## git clone <путь>
+>>*клонирование репозитория в текущую дерикторию* 
+___
+>## git add <имя файла или (*) все файлы>
+>>_индексирует файл или (*) все файлы в репозиторий для последующих коммитов._
 ___
 >### git status
-*get information from git about its current state*
+>>*проверяет какие файлы изменились *
 ___
->### git add .
-*add all files to the next commit*
+>### git commit
+>>*делает "слепок" на основе проиндексированных данных и добавляет их в базу данных Git*
+
+|параметр|описание|пример|
+|----------:|----------:|----------:|
+|--author|Подменить автора коммита|git commit -am --author alex\<alex@gmail.com>|
+|--date|Подменить дату коммита||
+|-a|Закоммитеть все изменения в файлах||
+|-m|Сообщение коммита||
+|--amend|Перезаписать предыдущий коммит||
+
 ___
->### git add 'path'
-*add a file or files to the next commit*
+>### git diff 
+>>*сравнивает индекс с рабочей директорией*
+
+|параметр|описание|пример|
+|----------:|----------:|----------:|
+|--cached|сравниваем с последним коммитом|git diff --cached|
+|hash hash|сравниваем коммиты|git diff 41d1 1d14|
 ___
->### git commit -m "message
-*creating a commit*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>### git rm <object or *>
+_индексирует файл или (*) все файлы в репозиторий для последующих коммитов._
 ___
 >### git commit -am "message"
 *Combining the commands "git add + git commit "
@@ -28,8 +74,12 @@ ___
 >### git checkout master
 *return to the current state and continue working*
 ___
->### git diff 
-*difference between the current file and the committed file*
+
+>### git log --graph 
+*displaying branches*
+___
+>### git log --oneline 
+*display in one line*
 ___
 >### git branch 
 *view all branches*
@@ -41,9 +91,11 @@ ___
 ___
 >### git branch -d
 *delete a branch*
-
 ___
 >### git merge
 *merging branches*
 
-!
+
+
+|параметр|описание|пример|
+|---|-----|------|
