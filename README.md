@@ -1,1 +1,1 @@
-# Dictionary
+# Git command dictionary
